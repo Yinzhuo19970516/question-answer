@@ -50,6 +50,8 @@
 回答问题写答案提交接口
 
 ### 如何提交自己的改
+##### 第一次
+
 1.克隆仓库
 > git clone git@github.com:Yinzhuo19970516/question-answer.git
 
@@ -71,3 +73,11 @@
 7.提交到远端仓库的的对应分支
 > git push 
 
+##### 日常提交
+1.保证自己本地分支的代码都提交了，拉远端修改
+> git pull
+
+2.拉master上最新代码(因为我可能会直接改master)
+> git merge origin/master
+
+3.如果和有冲突需要合并冲突,无冲突可以直接修改提交，执行上面第5步骤
