@@ -36,14 +36,38 @@
 * 简单的检索功能
 
 
-###一期准备实现功能
+### 一期准备实现功能
 - [ ] 登录
 - [ ] 上传头像功能
 - [ ] 提问功能
 - [ ] 回答问题功能
-目测需要提供的接口
+
+#### 目测需要提供的接口
 登录接口
 上传头像接口
 提交问题接口
 获取问题详情接口
 回答问题写答案提交接口
+
+### 如何提交自己的改
+1.克隆仓库
+> git clone git@github.com:Yinzhuo19970516/question-answer.git
+
+2.切到这个文件
+> cd question-answer
+
+3.新建本地分支并切到这个分支
+> git checkout -b feature-zhanghao
+
+4.本地分支与远端分支关联
+> git push --set-upstream origin feature-zhanghao
+
+5.修改本地文件，并提交
+> git add .
+
+6.增加commit,说明提交了什么
+> git commit -m "提交个什么"
+
+7.提交到远端仓库的的对应分支
+> git push 
+
